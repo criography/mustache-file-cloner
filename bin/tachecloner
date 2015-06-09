@@ -8,6 +8,6 @@ var fs = require('fs'),
 var _init = require( '../app/FileCloner' );
 
 // Verbalize `runner`
-log.runner = 'filecloner';
+log.runner = 'tachecloner';
 
 new _init(argv);
