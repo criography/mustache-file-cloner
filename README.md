@@ -26,7 +26,7 @@ __var_name__ is a needle to be searched for, encapsulated inside of mustache tag
 |-----|----------|------------|
 | aaa | value 1  | value 4    |
 | bbb | value 2  | value 5    |
-| ccc | value 3  |            |
+| ccc | value 3  | value 6    |
 
 
 ###### Source file example:
