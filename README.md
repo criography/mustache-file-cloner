@@ -3,6 +3,8 @@ Mustache File Cloner
 
 creates clones of the source file after parsing with against mustache reference file
 
+### SETUP:
+```npm install mustache-file-cloner -g```
 
 ### USAGE:
 ##### tachecloner SOURCE_FILE CSV_FILE DEST_FOLDER
