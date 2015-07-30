@@ -1,30 +1,31 @@
 {
-  "name": "mustache-file-cloner",
-  "version": "1.0.0",
-  "description": "creates clones of the source file after parsing with against mustache reference file",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/criography/mustache-file-cloner.git"
-  },
-  "bugs": {
-    "url": "https://github.com/criography/mustache-file-cloner/issues"
-  },
-  "author": "Marek Lenik (http://criography.com)",
-  "license": "ISC",
-  "preferGlobal": true,
-  "bin": {
-    "tachecloner": "./bin/tachecloner"
-  },
-  "dependencies": {
-    "async": "^1.2.1",
-    "chalk": "^1.0.0",
-    "csv": "^0.4.4",
-    "minimist": "^1.1.1",
-    "mkdirp": "^0.5.1",
-    "underscore": "^1.8.3",
-    "verbalize": "*"
-  }
+    "name"        : "mustache-file-cloner",
+    "version"     : "1.0.1",
+    "main"        : "app/FileCloner.js",
+    "bin"         : {
+        "tachecloner": "./bin/tachecloner"
+    },
+    "description" : "creates clones of the source file after parsing with against mustache reference file",
+    "scripts"     : {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository"  : {
+        "type": "git",
+        "url" : "https://github.com/criography/mustache-file-cloner.git"
+    },
+    "bugs"        : {
+        "url": "https://github.com/criography/mustache-file-cloner/issues"
+    },
+    "author"      : "Marek Lenik (http://criography.com)",
+    "license"     : "ISC",
+    "preferGlobal": true,
+    "dependencies": {
+        "async"     : "^1.2.1",
+        "chalk"     : "^1.0.0",
+        "csv"       : "^0.4.4",
+        "minimist"  : "^1.1.1",
+        "mkdirp"    : "^0.5.1",
+        "underscore": "^1.8.3",
+        "verbalize" : "*"
+    }
 }
