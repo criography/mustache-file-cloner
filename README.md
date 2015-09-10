@@ -14,6 +14,7 @@ __DEST_FOLDER__ defaults to `./clones/`. You can omit `./` and the trailing slas
 
 ###### Example: 
 ```sh
+tachecloner
 tachecloner index.html vars.csv clones
 tachecloner -d index.html -m vars.csv -d clones
 ```
